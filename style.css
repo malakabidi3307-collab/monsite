@@ -1,0 +1,97 @@
+/* général */
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #edcaca;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #da0e0e;
+  color: rgb(52, 29, 29);
+  padding: 15px;
+}
+
+nav a {
+  color: rgb(38, 3, 3);
+  margin: 10px;
+  text-decoration: none;
+}
+
+.sinscrire {
+  background-color: #441616;
+  color: rgb(234, 191, 191);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* hero */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #e6b9b9;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* services */
+
+.services_title {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.services div {
+  background: rgb(230, 189, 201);
+  padding: 15px;
+  width: 30%;
+}
+
+/* about */
+
+.propos {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  padding: 20px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+.Form-container {
+  
+  color: rgb(60, 10, 10);  
+  width: 300px;
+  margin: auto;
+}
+
+input {
+  
+  color: rgb(62, 7, 7);  
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
